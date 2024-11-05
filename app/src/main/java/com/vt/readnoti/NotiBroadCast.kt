@@ -2,6 +2,7 @@ package com.vt.readnoti
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
+import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -30,7 +31,8 @@ class NotiBroadCast(private val binding : ActivityMainBinding) : BroadcastReceiv
 
             val notificationIntent = Intent(context, MainActivity::class.java)
             notificationIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
-            val pendingIntent = android.app.PendingIntent.getActivity(context, 0, notificationIntent, 0)
+            val pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent,
+                PendingIntent.FLAG_IMMUTABLE)
             notification.contentIntent = pendingIntent
             notificationManager.notify(1, notification)
 
