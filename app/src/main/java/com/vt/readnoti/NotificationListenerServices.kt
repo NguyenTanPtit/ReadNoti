@@ -26,6 +26,7 @@ class NotificationListenerServices: NotificationListenerService() {
         intent.putExtra("title", title)
         intent.putExtra("content", content)
         intent.putExtra("packageName", packageName)
+        sendBroadcast(intent)
         Log.d("NotificationListenerService", notificationContent)
     }
 

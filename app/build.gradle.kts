@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.vt.readnoti"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.vt.readnoti"
