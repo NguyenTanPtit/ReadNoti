@@ -1,4 +1,4 @@
-package com.vt.readnoti
+package com.vt.readnoti.notification
 
 import android.app.Notification
 import android.content.Intent

@@ -9,9 +9,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.vt.readnoti.base.BaseActivity
 import com.vt.readnoti.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     private val binding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         checkNotificationPermission()
         val intentFilter = IntentFilter("com.vt.readnoti.NOTIFICATION_LISTENER_EXAMPLE")
         registerReceiver(notificationReceiver, intentFilter, RECEIVER_EXPORTED)
+
     }
 
     private fun checkNotificationPermission(){

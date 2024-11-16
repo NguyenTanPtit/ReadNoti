@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "781388371471",
+    "project_id": "izero-money",
+    "storage_bucket": "izero-money.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781388371471:android:f6d761de8c22c03c54357a",
+        "android_client_info": {
+          "package_name": "com.vt.readnoti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArmlrcMDG96ZB9HyhpuXPCIY7p0cdYqpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
