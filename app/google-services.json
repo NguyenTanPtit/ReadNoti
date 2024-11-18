@@ -12,7 +12,20 @@
           "package_name": "com.vt.readnoti"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "781388371471-sa9ipcbps3qa786je3sbsku1rl9e5h7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vt.readnoti",
+            "certificate_hash": "76d3b09dec69890b5b54285edf98ffef401a6b80"
+          }
+        },
+        {
+          "client_id": "781388371471-racnrpveu9a8op853jd4bguv5f94giev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyArmlrcMDG96ZB9HyhpuXPCIY7p0cdYqpk"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781388371471-racnrpveu9a8op853jd4bguv5f94giev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

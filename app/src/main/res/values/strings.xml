@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ReadNoti</string>
+    <string name="default_web_client_id">readnoti.apps.googleusercontent.com</string>
 </resources>
